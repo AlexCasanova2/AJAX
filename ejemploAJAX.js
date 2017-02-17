@@ -1,4 +1,4 @@
-function onclick(){
+function enviarAjaxHTML(){
     var nombre = document.getElementById("nombre").value;
     var xmlHttp = new XMLHttpRequest();
     var urldesti = "ajaxXML.php?nombre="+nombre;
